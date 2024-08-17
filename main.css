@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./src/lobby/lobby.css');
+@import url('./src/3dot/3dot.css');
+@import url('./src/rps/rps.css');
+@import url('./src/trivial/trivial.css');
+
+
+:root {
+    --bg: #1e90ff;
+    --yellow: #f9db47;
+    --pink: #ff3e9b;
+    --blue: #5627ff;
+    --purple: #947aff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #947aff;
+    font-family: Montserrat, sans-serif;
+    color: var(--yellow);
+}
+
